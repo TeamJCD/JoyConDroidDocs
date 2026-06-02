@@ -11,7 +11,7 @@ You may need to try multiple custom ROMs until finding a compatible one.&#x20;
 
 Custom ROMs (LineageOS, crDroid, etc.) for some devices such as OnePlus work better on Android 9 and 10.
 
-Android 13 and greater must use [SwitchControllerCOD](other-guides/switchcontroller-cod.md) instead of Bluetooth++
+Android 13 and greater must use [SwitchControllerCOD](other-guides/joy-con-droid-companion.md) instead of Bluetooth++
 {% endhint %}
 
 ### 🔷 Support for Bluetooth HID Profiles. Check with the [Tester app](other-projects/bluetooth-hid-profile-tester.md)
@@ -27,7 +27,7 @@ The guide for that can be [found here](guides/bluetoothpp.md). Alternatively, yo
 
 **Bluetooth++ only works with devices using the AOSP Bluetooth stack. Newer devices using the Qualcomm (QTI) Bluetooth Stack are not yet able to change the Device Class. Downgrading to Android 9 or 10 may help for some devices.**
 
-**Bluetooth++ supports only Android 9 to 12. If you have Android 13 or higher, use** [**SwitchControllerCOD**](other-guides/switchcontroller-cod.md) **instead.**
+**Bluetooth++ supports only Android 9 to 12. If you have Android 13 or higher, use** [**SwitchControllerCOD**](other-guides/joy-con-droid-companion.md) **instead.**
 
 ### 🔶 Samsung device or [custom ROM](other-guides/rooting-with-magisk-and-installing-custom-roms.md) with Bluetooth HID\_DEV\_MTU\_SIZE 512 (to use [amiibos](guides/using-amiibo.md))
 

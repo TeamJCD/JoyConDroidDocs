@@ -6,13 +6,13 @@ description: Frequently Asked Questions and important information for using JoyC
 
 ## **Why do I need Android 9 or higher?** <a href="#why-do-i-need-android-9-or-higher" id="why-do-i-need-android-9-or-higher"></a>
 
-Bluetooth HID Profiles were introduced in Android 9 which allow your device to function as a gamepad, mouse, keyboard, etc. You cannot do this on lower Android versions. Use the [Tester app](other-projects/bluetooth-hid-profile-tester.md) to check if you have it. **Android 13** and higher must also install the [SwitchControllerCOD](other-guides/switchcontroller-cod.md) Magisk module instead of Bluetooth++ due to significant changes to Bluetooth. If using Android 13+, make sure to download the newest version of the app, at least 1.0.91.
+Bluetooth HID Profiles were introduced in Android 9 which allow your device to function as a gamepad, mouse, keyboard, etc. You cannot do this on lower Android versions. Use the [Tester app](other-projects/bluetooth-hid-profile-tester.md) to check if you have it. **Android 13** and higher must also install the [SwitchControllerCOD](other-guides/joy-con-droid-companion.md) Magisk module instead of Bluetooth++ due to significant changes to Bluetooth. If using Android 13+, make sure to download the newest version of the app, at least 1.0.91.
 
 ## Why do I need [root](other-guides/rooting-with-magisk-and-installing-custom-roms.md)? <a href="#why-do-i-need-root" id="why-do-i-need-root"></a>
 
 Switch firmware version 12.0.0 and up has changed the functionality behind controller connection and input. It now has a Bluetooth Device Class check for initial pairing requests which checks if your device is a Gamepad or others. If your device is on Android 9 to Android 12, it must be rooted with Magisk to use the [Bluetooth++ module](guides/bluetoothpp.md) and change your device class to `002508` **or** to change your device’s Bluetooth MAC address to a real controller you have already paired with the Switch. [Click here for how to use Bluetooth++](guides/bluetoothpp.md). Root is also needed if you want to try to [enabling support for Bluetooth HID Profiles](other-projects/bluetooth-hid-profile-tester.md#if-the-tester-app-fails).
 
-If your device is on Android 13 or higher, you must use the [SwitchControllerCOD](other-guides/switchcontroller-cod.md) Magisk module instead.
+If your device is on Android 13 or higher, you must use the [SwitchControllerCOD](other-guides/joy-con-droid-companion.md) Magisk module instead.
 
 Magisk is not necessarily required, however. You can be rooted with an alternative like SuperSU as well and would just have to manually install or edit your files by accessing them with root privileges. Magisk is recommended and easier since you can simply install or remove the module. KernelSU is another option which can install Magisk modules.
 
@@ -48,7 +48,7 @@ To yield the best results when trying to connect during disconnecting issues, tu
 
 It's also possible you have a Samsung Galaxy A50/A51 which is known to give problems with connecting after a Samsung system update.
 
-If you're using Android 13, you'll need to make sure you're using the latest JoyCon Droid version and use [SwitchController COD](other-guides/switchcontroller-cod.md) instead if Bluetooth++ doesn't work.
+If you're using Android 13, you'll need to make sure you're using the latest JoyCon Droid version and use [SwitchController COD](other-guides/joy-con-droid-companion.md) instead if Bluetooth++ doesn't work.
 
 #### Please be aware that the app can be unstable and it can take you multiple tries to get connected properly.  <a href="#please-be-aware-that-the-app-can-be-unstable-and-it-can-take-you-multiple-tries-to-get-connected-pro" id="please-be-aware-that-the-app-can-be-unstable-and-it-can-take-you-multiple-tries-to-get-connected-pro"></a>
 

@@ -15,7 +15,7 @@
 * [Alternative to Bluetooth++](other-guides/alternative-to-bluetooth++.md)
 * [Rooting With Magisk and Installing Custom ROMs](other-guides/rooting-with-magisk-and-installing-custom-roms.md)
 * [JoyCon Droid With Non-Rooted Phone](other-guides/joycon-droid-with-non-rooted-phone.md)
-* [SwitchController COD](other-guides/switchcontroller-cod.md)
+* [Joy-Con Droid Companion](other-guides/joy-con-droid-companion.md)
 
 ## Other Projects
 

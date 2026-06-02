@@ -15,7 +15,7 @@ This workaround is a temporary fix since your Android device's Bluetooth MAC add
 * A [rooted](rooting-with-magisk-and-installing-custom-roms.md) Android device with [Bluetooth HID Profiles support](../other-projects/bluetooth-hid-profile-tester.md) and Magisk.
 * A non-rooted Android with Bluetooth HID Profiles support (**must be Samsung if you want to** [**use amiibos**](../guides/using-amiibo.md))
 
-1\) On the rooted Android, follow the [Bluetooth++ guide](../guides/bluetoothpp.md) or [SwitchControllerCOD guide](switchcontroller-cod.md) to change the Device Class to 002508
+1\) On the rooted Android, follow the [Bluetooth++ guide](../guides/bluetoothpp.md) or [SwitchControllerCOD guide](joy-con-droid-companion.md) to change the Device Class to 002508
 
 2\) Find the Bluetooth MAC Address of your non-rooted Android and change the rooted Android's Bluetooth MAC address to the Bluetooth MAC address of the non-rooted Android. Instructions from step 3 [here](alternative-to-bluetooth++.md). (Instead of a real controller, you will change the MAC address to the non-rooted phone.)
 

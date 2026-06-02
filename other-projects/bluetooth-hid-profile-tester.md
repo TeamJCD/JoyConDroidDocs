@@ -17,7 +17,7 @@ Download Bluetooth HID Profile Tester from Google Play
 ![A successful test is usually quick.](<../.gitbook/assets/image (24).png>)
 
 {% hint style="info" %}
-Please note that a successful test is not enough to use JoyCon Droid. Your Android device still needs to be [rooted](../other-guides/rooting-with-magisk-and-installing-custom-roms.md) in order to change its Bluetooth Device Class. If the test is successful and your device is rooted, proceed to changing the device class with [Bluetooth++](../guides/bluetoothpp.md) (Android 9-13) or [SwitchController COD](../other-guides/switchcontroller-cod.md) (Android 13+).
+Please note that a successful test is not enough to use JoyCon Droid. Your Android device still needs to be [rooted](../other-guides/rooting-with-magisk-and-installing-custom-roms.md) in order to change its Bluetooth Device Class. If the test is successful and your device is rooted, proceed to changing the device class with [Bluetooth++](../guides/bluetoothpp.md) (Android 9-13) or [SwitchController COD](../other-guides/joy-con-droid-companion.md) (Android 13+).
 {% endhint %}
 
 ### The following image will be seen on your device if the test fails: <a href="#the-following-image-will-be-seen-on-your-device-if-the-test-fails" id="the-following-image-will-be-seen-on-your-device-if-the-test-fails"></a>

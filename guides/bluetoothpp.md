@@ -20,7 +20,7 @@ Before proceeding, make sure your Android phone is [capable](../compatibility.md
 {% hint style="warning" %}
 ## Bluetooth++ only supports Android 9 to Android 12.
 
-If you are using Android 13 or higher, DO NOT install Bluetooth++. Please see instructions for the [SwitchControllerCOD](../other-guides/switchcontroller-cod.md) Magisk module instead. Certain devices/ROMs on Android 13 may still be able to use Bluetooth++. Test both (not at the same time) if you have issues connecting on Android 13.
+If you are using Android 13 or higher, DO NOT install Bluetooth++. Please see instructions for the [SwitchControllerCOD](../other-guides/joy-con-droid-companion.md) Magisk module instead. Certain devices/ROMs on Android 13 may still be able to use Bluetooth++. Test both (not at the same time) if you have issues connecting on Android 13.
 {% endhint %}
 
 ![The Magisk app will show you if Magisk is installed](<../.gitbook/assets/image (9).png>)

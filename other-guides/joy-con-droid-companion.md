@@ -15,7 +15,7 @@ Currently, this only supports 64-bit devices. Please see [instructions for Bluet
 ## Installation
 
 {% hint style="warning" %}
-If you're using Android 13 and have used Bluetooth++ to change your device class to 002508, please select the Default device class (usually 5a020c) in the Bluetooth++ app **before** removing it from Magisk. Otherwise it may remain on 002508 and persist on reboots, which may invalidate test reports for whether the Magisk module actually works or not!
+If you've used Bluetooth++ or SwitchControllerCOD in the past to change your device class to 002508, please select the Default device class (usually 5a020c) in the Bluetooth++ app **before** removing it from Magisk. Otherwise it may remain on 002508 and persist on reboots, which may invalidate test reports for whether the Magisk module actually works or not!
 {% endhint %}
 
 1. Make sure your device is running Android 13 or higher and [supports Bluetooth HID Profiles](../other-projects/bluetooth-hid-profile-tester.md).

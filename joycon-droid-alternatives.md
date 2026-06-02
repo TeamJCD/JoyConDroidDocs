@@ -40,8 +40,4 @@ Some cheaper devices are something such as [Flashiibo](https://www.flashiibo.com
 
 ## **Switch CFW**&#x20;
 
-Custom firmware on a Switch, such as Atmosphère, allows advanced control and greater possibilities. You can use homebrew such as [Mission Control](https://github.com/ndeadly/MissionControl) to use other controllers without adapters, and [emuiibo](https://github.com/XorTroll/emuiibo) to emulate amiibo directly on your Switch. However, this requires an older model Switch or a modchip. Using CFW can possibly damage your Switch if you don't know what you're doing or cause your Switch to be permanently banned from online services.
-
-##
-
-##
+Custom firmware on a Switch, such as Atmosphère, allows advanced control and greater possibilities. You can use homebrew such as [Mission Control](https://github.com/ndeadly/MissionControl) to use other controllers without adapters, and [emuiibo](https://github.com/XorTroll/emuiibo) to emulate amiibo directly on your Switch. Mission Control also eliminates the need to root your Android device if you still need to use it as a controller. This requires an older model Switch or a modchip. Using CFW can possibly damage your Switch if you don't know what you're doing or cause your Switch to be permanently banned from online services.

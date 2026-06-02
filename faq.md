@@ -76,10 +76,6 @@ Yes. It does not matter if your phone has NFC or not. amiibos are being sent thr
 
 Since amiibos are copyrighted content, **JoyCon Droid cannot help you obtain amiibo .bin files for legal reasons**. It is assumed that you are using personal dumped copies of your own amiibos such as from [Tagmo](https://github.com/HiddenRamblings/TagMo).
 
-## Some amiibos are not working?
-
-There are certain amiibos which will not work because they require writing data and JoyCon Droid does not yet support this feature. Some examples of this are Wolf Link in _Breath of the Wild_, _Splatoon 2_, _Splatoon 3_ and many other games that register amiibos.
-
 ## amiibos aren't working for me?
 
 Once again, amiibos only work with Samsung devices **or** with a custom ROM such as LineageOS 16.0 or higher, and the custom ROM needs to be built after 2020-07-September because they have a Bluetooth HID\_DEV\_MTU\_SIZE of 512 bytes. If you have this, try other amiibos and [try a combination of a REAL Left Joy-Con and a Right JoyCon in JoyCon Droid](guides/connecting-to-your-switch.md#real-left-joy-con-right-joycon-for-amiibo) and also try changing the Packet Rate to other values such as 10, 20, 50, 69, 80, 120 pps in JoyCon Droid settings. Please be aware that the app can be unstable and it can take you multiple tries to get connected properly and "scan" amiibos.

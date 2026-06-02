@@ -92,13 +92,3 @@ You can find your ROM's Build date by checking the date on the ROM you flashed o
 
 ### Make sure you're using a Samsung phone OR a custom ROM that was built after 2020-07 September and has Bluetooth HID\_DEV\_MTU\_SIZE 512 \[The Patch introduced on 7th of September 2020 is only for the AOSP Bluetooth Stack. If an Android device uses the Qualcomm Bluetooth Stack, HID\_DEV\_MTU\_SIZE is still set to 64.] <a href="#make-sure-you-chose-a-bin-file-you-could-have-a-corrupted-bin-such-as-from-an-incomplete-download-so" id="make-sure-you-chose-a-bin-file-you-could-have-a-corrupted-bin-such-as-from-an-incomplete-download-so"></a>
 {% endhint %}
-
-{% hint style="danger" %}
-## Remember!
-
-## Not all amiibos can work.
-
-#### amiibos that write data cannot be used. JoyCon Droid does not yet support writing data to amiibos and they can't be registered. <a href="#amiibos-that-write-data-cannot-be-used-joycon-droid-does-not-yet-support-writing-data-to-amiibos" id="amiibos-that-write-data-cannot-be-used-joycon-droid-does-not-yet-support-writing-data-to-amiibos"></a>
-
-#### Examples of amiibos that can't be used are _Wolf Link_ in _Breath of the Wild, Splatoon 2,_ _Splatoon 3_ and many other amiibos that need to be registered can't be used. <a href="#amiibos-that-write-data-cannot-be-used-joycon-droid-does-not-yet-support-writing-data-to-amiibos" id="amiibos-that-write-data-cannot-be-used-joycon-droid-does-not-yet-support-writing-data-to-amiibos"></a>
-{% endhint %}

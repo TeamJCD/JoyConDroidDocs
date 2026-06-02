@@ -8,10 +8,6 @@ description: What your Android needs to be compatible with JoyCon Droid.
 
 {% hint style="danger" %}
 You may need to try multiple custom ROMs until finding a compatible one.&#x20;
-
-Custom ROMs (LineageOS, crDroid, etc.) for some devices such as OnePlus work better on Android 9 and 10.
-
-Android 13 and greater must use [SwitchControllerCOD](other-guides/joy-con-droid-companion.md) instead of Bluetooth++
 {% endhint %}
 
 ### 🔷 Support for Bluetooth HID Profiles. Check with the [Tester app](other-projects/bluetooth-hid-profile-tester.md)
@@ -22,12 +18,8 @@ Android 13 and greater must use [SwitchControllerCOD](other-guides/joy-con-droid
 
 ### 🔷 Root with Magisk to change Bluetooth Device Class with the Bluetooth++ or SwitchControllerCOD module
 
-The guide for that can be [found here](guides/bluetoothpp.md). Alternatively, you can [use root to change your Android's Bluetooth MAC address](other-guides/alternative-to-bluetooth++.md) to a real JoyCon that you have already paired with the Switch. Find information about [rooting and flashing custom ROMs to your phone here](other-guides/rooting-with-magisk-and-installing-custom-roms.md). **Note**: You do not necessarily need to be rooted with Magisk. You can be rooted with SuperSU for example, however you will just need to install or edit some files on your device manually. KernelSU can also install Magisk modules.\
+The guide for that can be [found here](guides/bluetoothpp.md). Alternatively, you can [use root to change your Android's Bluetooth MAC address](other-guides/alternative-to-bluetooth++.md) to a real JoyCon that you have already paired with the Switch. Find information about [rooting and flashing custom ROMs to your phone here](other-guides/rooting-with-magisk-and-installing-custom-roms.md). KernelSU can also install Magisk modules.\
 **The JoyCon Droid app itself does not need root, but the workarounds to get paired with the Switch need root.**
-
-**Bluetooth++ only works with devices using the AOSP Bluetooth stack. Newer devices using the Qualcomm (QTI) Bluetooth Stack are not yet able to change the Device Class. Downgrading to Android 9 or 10 may help for some devices.**
-
-**Bluetooth++ supports only Android 9 to 12. If you have Android 13 or higher, use** [**SwitchControllerCOD**](other-guides/joy-con-droid-companion.md) **instead.**
 
 ### 🔶 Samsung device or [custom ROM](other-guides/rooting-with-magisk-and-installing-custom-roms.md) with Bluetooth HID\_DEV\_MTU\_SIZE 512 (to use [amiibos](guides/using-amiibo.md))
 
@@ -38,7 +30,7 @@ The guide for that can be [found here](guides/bluetoothpp.md). Alternatively, yo
 {% hint style="danger" %}
 Some devices known to have issues connecting to the Switch:
 
-**Samsung Galaxy A50/A51**
+**Samsung Galaxy A50/A51, Chinese Android ROMs**
 
 A custom ROM or different software version is likely to help.
 {% endhint %}

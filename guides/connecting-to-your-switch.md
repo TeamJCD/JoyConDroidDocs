@@ -4,7 +4,7 @@ description: How to connect to your Switch using JoyCon Droid
 
 # Connecting to Your Switch
 
-After making sure your device is [compatible](../compatibility.md), it is time to connect to the Switch! For basic gamepad compatibility (not including amiibo), you need to at least have [support for Bluetooth HID Profiles](../other-projects/bluetooth-hid-profile-tester.md) and have already changed your Device Class to `002508`using the [Bluetooth++](bluetoothpp.md) Magisk module **or** by changing your MAC address using root.
+After making sure your device is [compatible](../compatibility.md), it is time to connect to the Switch! For basic gamepad compatibility (not including amiibo), you need to at least have [support for Bluetooth HID Profiles](../other-projects/bluetooth-hid-profile-tester.md) and have already changed your Device Class using the [Joy-Con Droid Companion](../other-guides/joy-con-droid-companion.md) Magisk module **or** by changing your MAC address using root.
 
 [Main Connection Guide](connecting-to-your-switch.md#steps-to-connect)
 
